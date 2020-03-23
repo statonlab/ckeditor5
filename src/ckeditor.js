@@ -82,3 +82,57 @@ Editor.builtinPlugins = [
 	Paragraph
 ];
 
+Editor.defaultConfig = {
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'link',
+			'underline',
+			'bulletedList',
+			'numberedList',
+			'|',
+			'alignment',
+			'indent',
+			'outdent',
+			'|',
+			'imageUpload',
+			'CKFinder',
+			'mediaEmbed',
+			'blockQuote',
+			'insertTable',
+			'|',
+			'fontSize',
+			'fontColor',
+			'highlight',
+			'|',
+			'superscript',
+			'subscript',
+			'|',
+			'horizontalLine',
+			'|',
+			'undo',
+			'redo'
+		]
+	},
+	language: 'en',
+	image: {
+		toolbar: [
+			'imageTextAlternative',
+			'imageStyle:full',
+			'imageStyle:side'
+		]
+	},
+	table: {
+		contentToolbar: [
+			'tableColumn',
+			'tableRow',
+			'mergeTableCells',
+			'tableCellProperties',
+			'tableProperties'
+		]
+	},
+	licenseKey: '',
+}
