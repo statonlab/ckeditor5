@@ -7,7 +7,7 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder.js';
-import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
+import SimpleUploadAdapter from "@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter";
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
@@ -44,42 +44,42 @@ export default class Editor extends ClassicEditor {}
 
 // Plugins to include in the build.
 Editor.builtinPlugins = [
-	Autoformat,
-	BlockQuote,
-	Bold,
-	CKFinder,
-	CKFinderUploadAdapter,
-	Heading,
-	Image,
-	ImageCaption,
-	ImageStyle,
-	ImageToolbar,
-	ImageUpload,
-	Indent,
-	Italic,
-	Link,
-	List,
-	MediaEmbed,
-	PasteFromOffice,
-	Table,
-	TableToolbar,
-	Alignment,
-	Autosave,
-	FontColor,
-	FontSize,
-	HorizontalLine,
-	Highlight,
-	ImageResize,
-	IndentBlock,
-	MediaEmbedToolbar,
-	TableCellProperties,
-	Superscript,
-	Subscript,
-	TableProperties,
-	WordCount,
-	Underline,
-	Essentials,
-	Paragraph
+  Autoformat,
+  BlockQuote,
+  Bold,
+  CKFinder,
+  SimpleUploadAdapter,
+  Heading,
+  Image,
+  ImageCaption,
+  ImageStyle,
+  ImageToolbar,
+  ImageUpload,
+  Indent,
+  Italic,
+  Link,
+  List,
+  MediaEmbed,
+  PasteFromOffice,
+  Table,
+  TableToolbar,
+  Alignment,
+  Autosave,
+  FontColor,
+  FontSize,
+  HorizontalLine,
+  Highlight,
+  ImageResize,
+  IndentBlock,
+  MediaEmbedToolbar,
+  TableCellProperties,
+  Superscript,
+  Subscript,
+  TableProperties,
+  WordCount,
+  Underline,
+  Essentials,
+  Paragraph
 ];
 
 Editor.defaultConfig = {

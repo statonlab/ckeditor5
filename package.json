@@ -2,7 +2,7 @@
   "name": "@statonlab/ckeditor5",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "build/ckeditor.js",
@@ -19,7 +19,6 @@
     "@ckeditor/ckeditor5-autosave": "^18.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
     "@ckeditor/ckeditor5-block-quote": "^18.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^18.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.9",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.9",
     "@ckeditor/ckeditor5-editor-classic": "^18.0.0",
@@ -44,5 +43,9 @@
     "terser-webpack-plugin": "^2.3.5",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-ckfinder": "^18.0.0",
+    "@ckeditor/ckeditor5-upload": "^18.0.0"
   }
 }
